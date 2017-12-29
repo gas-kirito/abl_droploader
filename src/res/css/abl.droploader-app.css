@@ -1,0 +1,175 @@
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+/* image list */
+/*#image_control .abl-droploader-open {
+	float: right;
+	margin-right: 1em;
+	font: 1em Verdana, Arial, sans-serif;
+	font-weight: bold;
+}*/
+
+#abl-droploader-close {
+	display: block;
+	position: absolute;
+	top: 2em;
+	right: .5em;
+	padding: 3px 10px 6px 10px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	vertical-align: bottom;
+	text-align: center;
+	font: 2em Verdana, Arial, sans-serif;
+	font-weight: bold;
+	color: #222;
+	background: #fff;
+	z-index: 3333;
+	cursor: pointer;
+}
+#abl-droploader-close:hover {
+	color: #f22;
+}
+
+#abl-droploader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* #abl-droploader form input { */
+#abl-droploader form div {
+	display: none;
+}
+#abl-droploader .upload-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #222;
+	background: rgba(255, 255, 255, 0.85);
+	z-index: 3333;
+}
+#abl-droploader .select-files {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #666;
+	background: rgba(240, 240, 240, 0.75);
+	z-index: 3333;
+}
+#abl-droploader .abl-fixed-pos {
+	position: fixed;
+}
+#abl-droploader .select-files p {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin: auto 0;
+	text-align: center;
+	font-size: 3em;
+	font-weight: normal;
+	vertical-align: middle;
+}
+#abl-droploader-image-cat-sel {
+	display: block;
+	position: absolute;
+	top: 8em;
+	right: 1em;
+	background-color: #ccc;
+	padding: 1em;
+}
+#abl-droploader-image-cat-sel select {
+	margin-top: 0.5em;
+}
+#abl-droploader .img-preview {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 240px;
+	margin: 30px auto;
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+#abl-droploader .image-box {
+	height: 186px;
+	vertical-align: middle;
+	line-height: 180px;
+}
+#abl-droploader .image-box img {
+	max-width: 240px;
+	max-height: 180px;
+	border: 3px solid #fff;
+	-moz-box-shadow: 0 0 2px #000;
+	-webkit-box-shadow: 0 0 2px #000;
+	box-shadow: 0 0 2px #000;
+}
+#abl-droploader .img-preview .preview {
+	position: relative;
+	width: 500px;
+	height: 206px;
+	margin: 10px auto;
+	text-align: center;
+}
+#abl-droploader .img-preview .preview.done {
+	overflow: hidden;
+	height: 0;
+	transition: height 0.75s;
+	-moz-transition: height 0.75s;
+	-webkit-transition: height 0.75s;
+	-o-transition: height 0.75s;
+}
+/* per image progress */
+#abl-droploader .image-progress {
+	position: relative;
+	height: 12px;
+	width: 246px;
+	margin: 5px auto;
+	vertical-align: middle;
+}
+#abl-droploader .image-progress .progress {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: #2586d0;
+}
+
+/* overall progress */
+#abl-droploader .files-progress {
+	position: relative;
+	top: 350px;
+	height: 24px;
+	width: 500px;
+	margin: 10px auto;
+}
+#abl-droploader .files-progress .progress {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: #2586d0;
+}
+
+/* error or completion message */
+#abl-droploader .message-box {
+	position: relative;
+	top: 350px;
+	width: 500px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: small;
+}
