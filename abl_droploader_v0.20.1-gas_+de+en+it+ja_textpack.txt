@@ -1,0 +1,83 @@
+#@abl
+abl_droploader_all_files_uploaded => {{filecount}} files uploaded.
+abl_droploader_close => &#x00d7;
+abl_droploader_close_title => Close DropLoader
+abl_droploader_err_browser_not_supported => Your browser does not support HTML5 file uploads!
+abl_droploader_err_file_too_large => {{filename}} is too large!
+abl_droploader_err_invalid_filetype => Cannot upload {{filename}}. Only images are allowed (jpg, jpeg, gif, png)!
+abl_droploader_err_too_many_files => Too many files!<br />Please select {{maxfiles}} at most!
+abl_droploader_error_method => Method {{method}} does not exist in abl.droploader-app.js.
+abl_droploader_info_text => Drop files here<br /><br />or click to select files
+abl_droploader_no_files_uploaded => No files where uploaded.
+abl_droploader_open => Upload Images
+abl_droploader_open_title => Open drag & drop multiple image uploader
+abl_droploader_prefs_article_image_fields => Article-image field(s) (comma separated list of CSS fieldnames, use #custom-n for custom field names)
+abl_droploader_prefs_custom_stylesheet => Custom stylesheet (path/filename)
+abl_droploader_prefs_file_max_upload_count => Maximum file count of file uploads
+abl_droploader_prefs_image_max_upload_count => Maximum file count of image uploads
+abl_droploader_prefs_reload_image_tab => Images-Tab: Close Droploader and reload image list after upload
+abl_droploader_prefs_use_default_stylesheet => Use default styles
+abl_droploader_some_files_uploaded => {{uploaded_files}} of {{filecount}} files uploaded.
+#@abl
+#@language de-de
+abl_droploader_all_files_uploaded => {{filecount}} Dateien hochgeladen.
+abl_droploader_close => &#x00d7;
+abl_droploader_close_title => DropLoader schliessen
+abl_droploader_err_browser_not_supported => Ihr Browser unterstützt keine HTML5 Datei Uploads!
+abl_droploader_err_file_too_large => {{filename}} ist zu gross!
+abl_droploader_err_invalid_filetype => {{filename}} nicht hochgeladen. Es sind nur Bilder erlaubt (jpg, jpeg, gif, png)!
+abl_droploader_err_too_many_files => Zu viele Dateien ausgewählt!<br /><br />Es können maximal {{maxfiles}} Dateien gleichzeitig hochgeladen werden!
+abl_droploader_error_method => Methode {{method}} existiert in abl.droploader-app.js nicht.
+abl_droploader_info_text => Bilder hier ablegen<br />oder klicken um auszuwählen
+abl_droploader_no_files_uploaded => Es wurden keine Dateien hochgeladen.
+abl_droploader_open => Bilder hochladen
+abl_droploader_open_title => Drag & Drop Bild Uploader öffnen
+abl_droploader_prefs_article_image_fields => Feldnamen für Artikelbilder (Komma-getrennte Liste von Feldnamen, #custom-n für Benutzerdefinierte Felder)
+abl_droploader_prefs_custom_stylesheet => Eigenes Stylesheet (Pfad/Dateiname)
+abl_droploader_prefs_file_max_upload_count => Maximale Anzahl Dateien beim Datei-Upload
+abl_droploader_prefs_image_max_upload_count => Maximale Anzahl Dateien beim Bild-Upload
+abl_droploader_prefs_reload_image_tab => Bilder Register: Droploader nach dem upload schliessen und Bildliste neu laden
+abl_droploader_prefs_use_default_stylesheet => Standarddarstellung verwenden
+abl_droploader_some_files_uploaded => {{uploaded_files}} von {{filecount}} Dateien wurden hochgeladen.
+#@abl
+#@language it-it
+abl_droploader_all_files_uploaded => {{filecount}} file caricati.
+abl_droploader_close => &#x00d7;
+abl_droploader_close_title => Chiudi DropLoader
+abl_droploader_err_browser_not_supported => Il tuo browser non supporta l'upload tramite HTML5!
+abl_droploader_err_file_too_large => {{filename}} è troppo grande!
+abl_droploader_err_invalid_filetype => Non è possibile caricare {{filename}}. Sono consentite solo immagini (jpg, jpeg, gif, png)!
+abl_droploader_err_too_many_files => Troppi file!<br />Per favore, seleziona al massimo {{maxfiles}} file!
+abl_droploader_error_method => Method {{method}} non esiste in abl.droploader-app.js.
+abl_droploader_info_text => Rilascia i file qui<br /><br />o clicca per selezionare i file
+abl_droploader_no_files_uploaded => Nessun file caricato.
+abl_droploader_open => Carica immagini
+abl_droploader_open_title => Apri caricatore trascina & rilascia di immagini multiple
+abl_droploader_prefs_article_image_fields => Campo/i Article-image (lista separata da virgole di nomi di campo CSS, usare #custom-n per i nomi di campi personalizzati)
+abl_droploader_prefs_custom_stylesheet => Foglio di stile personalizzato (percorso/nomefile)
+abl_droploader_prefs_file_max_upload_count => Numero massimo di file in upload
+abl_droploader_prefs_image_max_upload_count => Numero massimo di immagini in upload
+abl_droploader_prefs_reload_image_tab => Tab Imagini: ricarica la pagina alla chiusura di Droploader
+abl_droploader_prefs_use_default_stylesheet => Usa gli stili di default
+abl_droploader_some_files_uploaded => {{uploaded_files}} di {{filecount}} file caricati.
+#@abl
+#@language ja-jp
+abl_droploader_all_files_uploaded => {{filecount}}このファイルをアップロードしました。
+abl_droploader_close => &#x00d7;
+abl_droploader_close_title => ヅロップローダを閉じる
+abl_droploader_err_browser_not_supported => 君のブラウザーはＨＴＭＬ５アップロードできません！
+abl_droploader_err_file_too_large => {{filename}}大きすぎる！
+abl_droploader_err_invalid_filetype => {{filename}}をアップロードできません。画像だけでいいです「jpg, jpeg, gif, png」！
+abl_droploader_err_too_many_files => ファイル多すぎ!<br />{{maxfiles}}このファイルを選んで下さい！
+abl_droploader_error_method => Method {{method}} does not exist in abl.droploader-app.js.
+abl_droploader_info_text => ファイルをここに<br /><br />ファイルを選ぶのため、クリックして下さい
+abl_droploader_no_files_uploaded => なんもアップロードしてません。
+abl_droploader_open => 画像のアップロード
+abl_droploader_open_title => 多重画像を「Drag&drop」アップローダ
+abl_droploader_prefs_article_image_fields => Article-image field(s) (comma separated list of CSS fieldnames, use #custom-n for custom field names)
+abl_droploader_prefs_custom_stylesheet => Custom stylesheet (path/filename)
+abl_droploader_prefs_file_max_upload_count => Maximum file count of file uploads
+abl_droploader_prefs_image_max_upload_count => Maximum file count of image uploads
+abl_droploader_prefs_reload_image_tab => Images-Tab: Close Droploader and reload image list after upload
+abl_droploader_prefs_use_default_stylesheet => Use default styles
+abl_droploader_some_files_uploaded => {{uploaded_files}} of {{filecount}} アップロードしました。.
